@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head><title>My Portfolio :: Home </title>
+<link href="css/dropbtn.css" type="text/css" rel="stylesheet">
+<link href="css/democss.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/contact.js"></script>
+</head>
+<body>
+<div class="w3-container">
+	<header>
+		<ul>
+			<div class="icon_demo">
+			<li><a href="https://www.facebook.com/profile.php?id=100009384062019"><i class="fa fa-facebook"></i></a><li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a><li>
+			<li><a href="https://www.linkedin.com/in/abhishek-jadhav-413a39104/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://plus.google.com/108865822557402091610"><i class="fa fa-google-plus"></i></a></li></div>
+		</ul>
+
+		<h1>Contact us</h1>
+	</header>
+	<div class="navbar">
+	<nav>
+		<ul>
+		<li><a href="index.html">Information</a><li>
+		<li class="dropdown">
+		<a href="javascript:void(0)" onclick="myFunction()" class="dropbtn">Experience</a>
+			<div class="dropdown-content" id="myDropdown">
+				<a href="project.html">Project</a>
+				<a href="blog.html">Blog</a>
+				<a href="aoi.html">Area of Interest</a>
+			</div>
+		<li>
+		<li><a href="contact.html">Contact</a><li>
+		<li><a href="AbhishekJadhav.pdf">Resume</a><li>
+	</ul>	
+	</nav>
+	</div>
+	<br/>
+	</aside>
+	<br/>
+	<br/>
+	<section>
+		<div id="contact">
+			<h1> Contact Form </h1>
+			<form name="contact_form" method="post" action="thanks.html" onsubmit="return validateform()" >
+				<table>
+					<tr>
+						<td>Name:</td>
+						<td><input type="text" name="name" id="name" placeholder="Name here.."></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="email" id="email" placeholder="Email here.."></td>
+					</tr>
+					<tr>
+						<td>Message:</td>
+						<td><textarea name="message" id="message"  placeholder="Message here.."></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" name="submit" value="Submit"></td>
+					</tr>
+				</table>
+			</form>
+			<time></time>
+		</div>
+	</section>
+</div>	
+	<footer>
+		<div align="center">All Rights Reserved &copy;2017</div>
+	</footer>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+
+</script>
+
+</body>
+</html>

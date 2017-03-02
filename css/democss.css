@@ -1,0 +1,43 @@
+
+img{
+		border: 5px solid white;
+		border-radius:	100px; 
+		float:center;
+	}
+table{
+		padding: 10px;
+		margin: 20px;
+	}
+body{
+	background-color:#FFF5EE;
+}
+
+.blockquote{
+	padding-left: 10px;
+	height: 100px;
+	width: 500px;.
+	overflow: hidden;
+}
+a:link{
+#			color: white;
+		}
+
+a:visited{
+			color: cyan;
+		}
+a:hover{
+			color: lightblue;
+			font-size: 1em;
+		}
+a:active{
+		#color: green;
+}
+table{
+		border-collapse: collapse;
+		color: brown;
+		#background-color: aqua;
+	}
+
+
+
+ 

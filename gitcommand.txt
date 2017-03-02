@@ -1,0 +1,19 @@
+1.git config --global user.name abhidj
+2.git config --global user.email paachill007@gmail.com
+3.git config --list
+4.git init   //initialise your repository
+5.git status //show working directory file
+6.git add file1.txt//to add afile
+7. git add . //to add all the ile in the repository
+8.git diff file.txt //show the changes madeb to the file
+9.git reset <first six no. of commit code> //it will revert to that particular commit
+10.git branch branch_one //this will add one branch
+11.git checkout branch_one //this will switch to brach_one
+12.create a repository on git hub.copy the url of repositpory.then on your git bash enter command
+	git remote add <nicname> <copied url>
+13. git push <nickname> <local repository>
+14.git remote -v //verify remote url.
+At clone side
+15.git clone <clone url>
+16.git push <nicname> <clone url>																																						
+17.git -scm

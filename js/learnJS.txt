@@ -1,0 +1,24 @@
+1. document.getElementById("demo").innerHTML = "Hello JavaScript";  // replaces the content of that id of html with the given content given by js query.here innerHTML give pointer to inner content
+2. document.getElementById("demo").style.fontSize = "25px";   //to change/apply css on id;
+3. document.getElementById("demo").style.display = "none";   // to hide the content
+
+NOTE: 	Old JavaScript examples may use a type attribute: <script type="text/javascript">.
+		The type attribute is not required. JavaScript is the default scripting language in HTML.
+		Script can be written in both Head and Body part.
+		External scripts cannot contain <script> tags.
+
+4. 	Writing into an HTML element, using innerHTML.
+	Writing into the HTML output using document.write().
+	Writing into an alert box, using window.alert().
+	Writing into the browser console, using console.log().
+
+5.	Numbers are not allowed as the first character.
+	This way JavaScript can easily distinguish identifiers from numbers.
+
+6.	===	equal value and equal type
+	!==	not equal value or not equal type
+	
+7.  javascript objects
+	The values are written as name:value pairs (name and value separated by a colon).
+	JavaScript objects are containers for named values.
+	var car = {type:"Fiat", model:"500", color:"white"};	

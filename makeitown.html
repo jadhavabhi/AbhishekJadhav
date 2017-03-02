@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head><title>My Portfolio :: Home </title>
+<link href="css/dropbtn.css" type="text/css" rel="stylesheet">
+<link href="css/democss.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/contact.js"></script>
+</head>
+<body>
+<div class="w3-container">
+	<header>
+		<ul>
+			<div class="icon_demo">
+			<li><a href="https://www.facebook.com/profile.php?id=100009384062019"><i class="fa fa-facebook"></i></a><li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a><li>
+			<li><a href="https://www.linkedin.com/in/abhishek-jadhav-413a39104/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://plus.google.com/108865822557402091610"><i class="fa fa-google-plus"></i></a></li>
+			</div>
+		</ul>
+
+		<h1>My Portfolio</h1>
+	</header>
+	<div class="navbar">
+	<nav>
+		<ul>
+		<li><a href="index.html">Information</a><li>
+		<li class="dropdown">
+		<a href="javascript:void(0)" onclick="myFunction()" class="dropbtn">Experience</a>
+			<div class="dropdown-content" id="myDropdown">
+				<a href="project.html">Project</a>
+				<a href="blog.html">Blog</a>
+				<a href="aoi.html">Area of Interest</a>
+			</div>
+		<li>
+		<li><a href="contact.html">Contact</a><li>
+		<li><a href="AbhishekJadhav.pdf">Resume</a><li>
+		<li><a href="makeitown.html">Make it Your own</a><li>
+	</ul>	
+	</nav>
+		</div>
+		<section>
+		<div id="ownsite">
+			<h1> Fill Form to Create Your Own Portfolio </h1>
+			<form name="makeitown" method="post" action="thanks.html" onsubmit="return validateform()" >
+				<table>
+					<tr>
+						<td>Name:</td>
+						<td><input type="text" name="name" id="name" placeholder="Name here.."></td>
+					</tr>
+					<tr>
+						<td>Date of Birth:</td>
+						<td><input type="Date" name="date" id="date" placeholder="Date here.."></td>
+					</tr>
+					<tr>
+						<td>Address:</td>
+						<td><input type="text" name="address" id="address" placeholder="Address here.."></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="email" id="email" placeholder="Email here.."></td>
+					</tr>
+					<tr>
+						<td>Phone:</td>
+						<td><input type="text" name="phone" id="phone" placeholder="Phone no here.."></td>
+					</tr>
+					<tr>
+						<td>Website:</td>
+						<td><textarea name="text" id="website"  placeholder="Website link here.."></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" name="submit" value="Submit"></td>
+					</tr>
+				</table>
+			</form>
+			<time></time>
+		</div>
+	</section>
+	<div id="dialog">
+  <input type="text" id="input1" />
+  <input type="text" id="input2" />
+	</div>
+<script>
+$(document).ready(function() {
+    $("#dialog").dialog({
+        close: function(event, ui) { 
+            // do whatever you need on close
+        }
+    });
+});
+</script>
+	</body>
+</html>
